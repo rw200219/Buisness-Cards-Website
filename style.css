@@ -1,0 +1,85 @@
+/* General font and body settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0; /* Very light green, almost white */
+    margin: 20px; /* Adds margin around the entire page */
+    padding: 0;
+    color: #0a290a;
+}
+
+/* Header colour */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0; /* Remove any extra margin */
+    text-align: center; /* Centers the links */
+	
+}
+
+/* Flexbox for logo and title in header */
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* Aligns the items to the left */
+    margin: 0; /* Removes any additional margin */
+    background-color: #f0f8f0; /* Ensures the background matches the page */
+    text-align: flex-start; /* Centers the links */
+	
+}
+
+/* Styling for logo */
+.logo {
+    margin-left: -20px; /* Move the logo further left */
+    background-color: #f0f8f0; /* Ensures logo background matches the page */
+}
+
+/* Flex container for text and table */
+.content {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+/* Table styles */
+table, td, tr, th { 
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin: 0 20px 0 0; /* Adds space to the right of the table */
+}
+
+td, th {
+    width: 150px;
+    text-align: flex-start;
+}
+
+th { 
+    background-color: #A3FF75; /* Greenish background for table headers */
+}
+
+/* Paragraph text */
+p {
+    margin: 0; /* Removes default margin */
+    padding-left: 0px; /* Adds space between table and text */
+    flex: 1; /* Ensures the paragraph text takes up the remaining space */
+}
+
+/* Navigation section styling */
+nav {
+    background-color: #4CAF50; /* Green background for navigation */
+    padding: 10px; /* Adds space around the links */
+    text-align: center; /* Centers the links */
+    text-decoration: underline; /* Adds underline on hover */
+	margin-bottom: 20px; /* Adds space below the navigation */
+}
+
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from links */
+    margin: 0 15px; /* Adds space between links */
+    font-size: 18px; /* Increases font size for readability */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
